@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE6381291F259C6F00F6835B /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6381281F259C6F00F6835B /* MainCollectionViewCell.swift */; };
 		DE700E591F22EE0700A9C191 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE700E581F22EE0700A9C191 /* AppDelegate.swift */; };
-		DE700E5B1F22EE0700A9C191 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE700E5A1F22EE0700A9C191 /* ViewController.swift */; };
+		DE700E5B1F22EE0700A9C191 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE700E5A1F22EE0700A9C191 /* MainViewController.swift */; };
 		DE700E5E1F22EE0800A9C191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE700E5C1F22EE0800A9C191 /* Main.storyboard */; };
 		DE700E601F22EE0800A9C191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE700E5F1F22EE0800A9C191 /* Assets.xcassets */; };
-		DE700E631F22EE0800A9C191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE700E611F22EE0800A9C191 /* LaunchScreen.storyboard */; };
+		DE700E6C1F2301F800A9C191 /* SourceCode in Resources */ = {isa = PBXBuildFile; fileRef = DE700E6B1F2301F800A9C191 /* SourceCode */; };
+		DE700E6E1F23032400A9C191 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE700E6D1F23032400A9C191 /* CodeViewController.swift */; };
+		DE700E701F23040A00A9C191 /* HighlightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE700E6F1F23040A00A9C191 /* HighlightModel.swift */; };
+		DE700E761F2304D900A9C191 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE700E741F2304D900A9C191 /* Launch Screen.storyboard */; };
+		DFB95D1EF27765780B33A5B8 /* Pods_ioccc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6849AD7A806064E96D0105C9 /* Pods_ioccc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6849AD7A806064E96D0105C9 /* Pods_ioccc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ioccc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		976CD11754634FB9E383041E /* Pods-ioccc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ioccc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ioccc/Pods-ioccc.debug.xcconfig"; sourceTree = "<group>"; };
+		DE6381281F259C6F00F6835B /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		DE700E551F22EE0700A9C191 /* ioccc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ioccc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE700E581F22EE0700A9C191 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE700E5A1F22EE0700A9C191 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE700E5A1F22EE0700A9C191 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DE700E5D1F22EE0800A9C191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE700E5F1F22EE0800A9C191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DE700E621F22EE0800A9C191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE700E641F22EE0800A9C191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE700E6B1F2301F800A9C191 /* SourceCode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SourceCode; sourceTree = "<group>"; };
+		DE700E6D1F23032400A9C191 /* CodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
+		DE700E6F1F23040A00A9C191 /* HighlightModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlightModel.swift; sourceTree = "<group>"; };
+		DE700E751F2304D900A9C191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E9923FFDD41740F9C345ED80 /* Pods-ioccc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ioccc.release.xcconfig"; path = "Pods/Target Support Files/Pods-ioccc/Pods-ioccc.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB95D1EF27765780B33A5B8 /* Pods_ioccc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +51,11 @@
 		DE700E4C1F22EE0700A9C191 = {
 			isa = PBXGroup;
 			children = (
+				DE700E6B1F2301F800A9C191 /* SourceCode */,
 				DE700E571F22EE0700A9C191 /* ioccc */,
 				DE700E561F22EE0700A9C191 /* Products */,
+				F4519E85B97B9A070E45BF72 /* Pods */,
+				F50E84D3E0496E4BDE3498A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +70,58 @@
 		DE700E571F22EE0700A9C191 /* ioccc */ = {
 			isa = PBXGroup;
 			children = (
-				DE700E581F22EE0700A9C191 /* AppDelegate.swift */,
-				DE700E5A1F22EE0700A9C191 /* ViewController.swift */,
-				DE700E5C1F22EE0800A9C191 /* Main.storyboard */,
+				DE700E721F23041A00A9C191 /* Model */,
+				DE700E731F23043500A9C191 /* View */,
+				DE700E711F23040E00A9C191 /* Controller */,
 				DE700E5F1F22EE0800A9C191 /* Assets.xcassets */,
-				DE700E611F22EE0800A9C191 /* LaunchScreen.storyboard */,
 				DE700E641F22EE0800A9C191 /* Info.plist */,
+				DE700E581F22EE0700A9C191 /* AppDelegate.swift */,
 			);
 			path = ioccc;
+			sourceTree = "<group>";
+		};
+		DE700E711F23040E00A9C191 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE700E5A1F22EE0700A9C191 /* MainViewController.swift */,
+				DE700E6D1F23032400A9C191 /* CodeViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DE700E721F23041A00A9C191 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE700E6F1F23040A00A9C191 /* HighlightModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DE700E731F23043500A9C191 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE700E5C1F22EE0800A9C191 /* Main.storyboard */,
+				DE700E741F2304D900A9C191 /* Launch Screen.storyboard */,
+				DE6381281F259C6F00F6835B /* MainCollectionViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F4519E85B97B9A070E45BF72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				976CD11754634FB9E383041E /* Pods-ioccc.debug.xcconfig */,
+				E9923FFDD41740F9C345ED80 /* Pods-ioccc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F50E84D3E0496E4BDE3498A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6849AD7A806064E96D0105C9 /* Pods_ioccc.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +131,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE700E671F22EE0800A9C191 /* Build configuration list for PBXNativeTarget "ioccc" */;
 			buildPhases = (
+				EE7E4A8BC5B9B6A61FFE9111 /* [CP] Check Pods Manifest.lock */,
 				DE700E511F22EE0700A9C191 /* Sources */,
 				DE700E521F22EE0700A9C191 /* Frameworks */,
 				DE700E531F22EE0700A9C191 /* Resources */,
+				DE700E6A1F22EE6400A9C191 /* ShellScript */,
+				F2BEFEECD25F48874B5AEF30 /* [CP] Embed Pods Frameworks */,
+				AD68587F95C1E00603BA67B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,20 +188,85 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE700E631F22EE0800A9C191 /* LaunchScreen.storyboard in Resources */,
 				DE700E601F22EE0800A9C191 /* Assets.xcassets in Resources */,
+				DE700E6C1F2301F800A9C191 /* SourceCode in Resources */,
+				DE700E761F2304D900A9C191 /* Launch Screen.storyboard in Resources */,
 				DE700E5E1F22EE0800A9C191 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AD68587F95C1E00603BA67B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ioccc/Pods-ioccc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE700E6A1F22EE6400A9C191 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "REV=`date +%Y%m%d%H%M%S`\n\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion ${REV}\" \"${TARGET_BUILD_DIR}\"/${INFOPLIST_PATH}";
+		};
+		EE7E4A8BC5B9B6A61FFE9111 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2BEFEECD25F48874B5AEF30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ioccc/Pods-ioccc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE700E511F22EE0700A9C191 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE700E5B1F22EE0700A9C191 /* ViewController.swift in Sources */,
+				DE700E701F23040A00A9C191 /* HighlightModel.swift in Sources */,
+				DE700E6E1F23032400A9C191 /* CodeViewController.swift in Sources */,
+				DE6381291F259C6F00F6835B /* MainCollectionViewCell.swift in Sources */,
+				DE700E5B1F22EE0700A9C191 /* MainViewController.swift in Sources */,
 				DE700E591F22EE0700A9C191 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,12 +282,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DE700E611F22EE0800A9C191 /* LaunchScreen.storyboard */ = {
+		DE700E741F2304D900A9C191 /* Launch Screen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DE700E621F22EE0800A9C191 /* Base */,
+				DE700E751F2304D900A9C191 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = "Launch Screen.storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -261,10 +390,12 @@
 		};
 		DE700E681F22EE0800A9C191 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976CD11754634FB9E383041E /* Pods-ioccc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U42NM79F4W;
 				INFOPLIST_FILE = ioccc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosdevlog.ioccc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,10 +405,12 @@
 		};
 		DE700E691F22EE0800A9C191 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9923FFDD41740F9C345ED80 /* Pods-ioccc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U42NM79F4W;
 				INFOPLIST_FILE = ioccc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosdevlog.ioccc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +437,7 @@
 				DE700E691F22EE0800A9C191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

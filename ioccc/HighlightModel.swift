@@ -14,6 +14,7 @@ class HighlightModel {
     let textStorage = CodeAttributedString()
     let textContainer = NSTextContainer(size: CGSize.zero)
     var highlightr : Highlightr!
+    var theme: String = "xcode"
     
     static let sharedInstance = HighlightModel()
     

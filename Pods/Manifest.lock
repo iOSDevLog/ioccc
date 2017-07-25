@@ -1,0 +1,15 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.2.0)
+  - Highlightr (1.1.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - Highlightr (~> 1.1.0)
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: d11a4c12c6aaf704b8a3f56d179198c99f3e41e6
+  Highlightr: 519911a0a9a040d76e591f6fe58bb5177c8bdaa3
+
+PODFILE CHECKSUM: 7f804f5266d0af40775d72c0fdd94e4dfbe67538
+
+COCOAPODS: 1.2.1
